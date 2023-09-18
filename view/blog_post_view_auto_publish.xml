@@ -1,0 +1,12 @@
+<odoo>
+    <record id="view_blog_post_form_inherit" model="ir.ui.view">
+        <field name="name">blog.post.form.inherit</field>
+        <field name="model">blog.post</field>
+        <field name="inherit_id" ref="website_blog.view_blog_post_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='write_date']" position="after">
+                <field name="auto_publish"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
