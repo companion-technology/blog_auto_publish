@@ -1,6 +1,7 @@
 {
     "name": "Blog: Auto Publish",
     "summary": "Automatically publish",
+    "description": "Set a future date and time for your blog post to be automatically published.",
     "author": "Companion Technology LLC",
     "website": "https://companionedu.com",
     "category": "1",
